@@ -150,8 +150,8 @@ footer {
 }
 
 .participants-list {
-  list-style-type: disc;
-  margin: 0.5rem 0 0 1.5rem;
+  list-style-type: none;
+  margin: 0.5rem 0 0 0;
   padding: 0;
 }
 
@@ -159,6 +159,19 @@ footer {
   margin: 0.3rem 0;
   color: #555;
   font-size: 0.9rem;
+  display: flex;
+  align-items: center;
+}
+
+.delete-icon {
+  margin-left: 8px;
+  cursor: pointer;
+  color: #c62828;
+  font-size: 1.1rem;
+  transition: color 0.2s;
+}
+.delete-icon:hover {
+  color: #a31515;
 }
 
 .no-participants {
